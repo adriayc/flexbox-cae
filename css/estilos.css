@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	/*Origen de la imagen*/
+	background: url('../img/fondo.jpg') #000;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	/*margin: 20px auto;*/
+	margin: 20px;
+}
+
+header {
+	width: 100%;
+	padding: 50px 0px;
+
+	display: flex;	/*Habilitamos flexbox*/
+	flex-direction: row;	/*Ajustar horizontalmente los elementos*/
+	justify-content: space-between;		/*Ajustar el espacio entre los elementos*/
+	align-items: center;	/*Ajustar los elementos veticalmente*/
+}
+header .menu  a {
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	margin-right: 40px;
+}
+header .menu a:hover {
+	text-decoration: underline;
+}

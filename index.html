@@ -5,53 +5,57 @@
 	<title>Layout con Flexbox</title>
 	<!-- Fuente de google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<!-- Estilos de la pagina -->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
-	<header>
-		<div class="logo">
-			<img src="img/logo.jpg" alt="logo">
-		</div>
-		
-		<nav>
-			<!-- Con flexbox no necesitamos usar ul -->
-			<a href="#">Inicio</a>
-			<a href="#">Blog</a>
-			<a href="#">Contacto</a>
-		</nav>
-	</header>
-
-	<section class="principal">
-		<article>
-			<div class="thumb">
-				<img src="img/thumb.jpg" alt="thumb">
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<img src="img/logo.jpg" alt="logo">
 			</div>
-
-			<h2>Titulo del Articulo</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam animi excepturi, quasi similique eius blanditiis omnis nobis! Corporis iure magnam aliquam enim cupiditate vitae voluptate error, nam magni, suscipit, dolore consequatur harum facilis saepe fugiat? Amet corrupti suscipit quod perferendis dignissimos quo quaerat porro aliquam aperiam voluptate vero assumenda facilis eos voluptatibus corporis maxime beatae, asperiores nulla. Asperiores, excepturi, perspiciatis.</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam animi excepturi, quasi similique eius blanditiis omnis nobis! Corporis iure magnam aliquam enim cupiditate vitae voluptate error, nam magni, suscipit, dolore consequatur harum facilis saepe fugiat? Amet corrupti suscipit quod perferendis dignissimos quo quaerat porro aliquam aperiam voluptate vero assumenda facilis eos voluptatibus corporis maxime beatae, asperiores nulla. Asperiores, excepturi, perspiciatis.</p>
-		</article>				
-	</section>
-
-	<aside>
-		<div class="add">
-			<p>AD</p>
-		</div>
-
-		<div class="add">
-			<p>AD</p>
-		</div>
-	</aside>	
-
-	<footer>
-		<div class="autor">
-			<p>Creado por Adriano Ayala &copy;</p>
-		</div>
-
-		<div class="redes-sociales">
-			<a href="https://www.facebook.com/adriayc">Facebook</a>
-			<a href="https://twitter.com/adriAyCo">Twitter</a>
-		</div>
-	</footer>
+			
+			<nav class="menu">
+				<!-- Con flexbox no necesitamos usar ul -->
+				<a href="#">Inicio</a>
+				<a href="#">Blog</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</header>
+		
+		<section class="principal">
+			<article>
+				<div class="thumb">
+					<img src="img/thumb.jpg" alt="thumb">
+				</div>
+		
+				<h2>Titulo del Articulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam animi excepturi, quasi similique eius blanditiis omnis nobis! Corporis iure magnam aliquam enim cupiditate vitae voluptate error, nam magni, suscipit, dolore consequatur harum facilis saepe fugiat? Amet corrupti suscipit quod perferendis dignissimos quo quaerat porro aliquam aperiam voluptate vero assumenda facilis eos voluptatibus corporis maxime beatae, asperiores nulla. Asperiores, excepturi, perspiciatis.</p>
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam animi excepturi, quasi similique eius blanditiis omnis nobis! Corporis iure magnam aliquam enim cupiditate vitae voluptate error, nam magni, suscipit, dolore consequatur harum facilis saepe fugiat? Amet corrupti suscipit quod perferendis dignissimos quo quaerat porro aliquam aperiam voluptate vero assumenda facilis eos voluptatibus corporis maxime beatae, asperiores nulla. Asperiores, excepturi, perspiciatis.</p>
+			</article>				
+		</section>
+		
+		<aside>
+			<div class="add">
+				<p>AD</p>
+			</div>
+		
+			<div class="add">
+				<p>AD</p>
+			</div>
+		</aside>	
+		
+		<footer>
+			<div class="autor">
+				<p>Creado por Adriano Ayala &copy;</p>
+			</div>
+		
+			<div class="redes-sociales">
+				<a href="https://www.facebook.com/adriayc">Facebook</a>
+				<a href="https://twitter.com/adriAyCo">Twitter</a>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>
