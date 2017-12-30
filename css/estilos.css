@@ -18,8 +18,8 @@ body {
 .contenedor {
 	width: 90%;
 	max-width: 1000px;
-	/*margin: 20px auto;*/
-	margin: 20px;
+	margin: 20px auto;
+	/*margin: 20px;*/
 
 	display: flex;	/*habilitamos flexbox*/
 	flex-direction: row;	/*Especifica la direccion de los elementos*/
@@ -87,4 +87,25 @@ aside .add {
 	text-align: center;
 	padding: 50px 0px;
 	/*margin: 20px 0px;*/
+}
+
+footer {
+	width: 100%;
+	background: rgba(255, 255, 255, .2);
+	margin-top: 20px 0px;
+	padding: 20px;
+	color: #fff;
+
+	display: flex;	/*Habilitamos flexbox*/
+	flex-direction: row;	/*Ordenamos horizontalmente*/
+	flex-wrap: nowrap;	/*Ajusta los elementos segun el ancho del padre*/
+	justify-content: space-between;		/*Ajusta el espacio entre los elementos*/
+}
+footer .redes-sociales a {
+	color: #fff;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+footer .redes-sociales a:hover {
+	text-decoration: none;
 }
